@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+}
+header{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 5vh;
+    background-color: white
+}
+nav {
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width:800px;
+    min-width: 800px;
+    height: 100%;
+    background-color: white;
+    
+
+}
+main{
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 150vh;
+    background-color: rgb(236, 232, 232);
+}
+footer{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    min-width: 1280px;
+    height: 5vh;
+    background-color: black;
+ 
+}
+
+.menu1{
+    position: relative;
+    float: left;
+    top: 10px;
+    width: 140px;
+     /*clear both:;는 float속성 해제 */
+    cursor: pointer;
+}
+
+.menu2{
+    position: relative;
+    float: left;
+    width: 140px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.menu3{
+    position: relative;
+    float: left;
+    width: 140px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.menu4{
+    position: relative;
+    float: left;
+    width: 140px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.menu5{
+    position: relative;
+    float: left;
+    width: 140px;
+    top: 10px;
+    cursor: pointer;
+}
+main .section1{
+    padding-top: 10px;
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width: 800px;
+    height: 350px;
+}
+
+main .img1{
+    width: 800px;
+    height: 350px;
+}
+main .section2{
+    padding-top: 10px;
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width: 800px;
+    height: 350px;
+}
+main .text1{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 500px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+main .img2{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .text2{
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    width: 400px;
+    height: 350px;
+    
+}
+main .section3{
+    padding-top: 10px;
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width: 800px;
+    height: 300px;
+}
+
+main .section4{
+    position: relative;
+    top: 0px;
+    margin: 0px auto;
+    width: 800px;
+    height: 200px;
+}
+
+
+.notice {
+    display: none;
+}
+
+.notice_background{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.2;
+
+}
+
+.notice_border{
+    position: relative;
+    margin: 0 auto;
+    top: 22vh;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    z-index: 3;
+}
